@@ -24,3 +24,16 @@ Protocol describes rules in this case how they will interacts.
 
 **history** - get all commands which we enter in a field  
 we can use **!id** for enter some commant that we need
+
+**node.js** consists from different modules and libuv
+
+**libuv** can work with operations system, create process, do http request, create flow, file system
+
+**nvm** - allow use some versions of node js
+
+find command in packet    
+example: nvm -h |(pipe) rg install
+
+Буффер - это представления наших даннных в бинарном виде(шестнадцатиричном).
+
+
