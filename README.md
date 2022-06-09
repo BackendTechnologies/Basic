@@ -71,6 +71,8 @@ Pattern module
 ![Screenshot_6](https://user-images.githubusercontent.com/66359081/172895716-f7981e05-6191-47ca-93c2-8627a50a1bb0.png)
 
 
+кэширование -  каждый модуль импортируется один раз и сохраняется в кэш зависимости(кэши).
+
 
 
 
