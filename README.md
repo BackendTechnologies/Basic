@@ -36,4 +36,17 @@ example: nvm -h |(pipe) rg install
 
 Буффер - это представления наших даннных в бинарном виде(шестнадцатиричном).
 
+EventLoop in Node.js has macroTasks and mikroTasks
+It consists from demiptiplexer and queque that consists from 2 column(macroTasks and mikroTasks).
+
+Aplication sens async task in the Event Demultiplexer  
+Demultiplexer send this task in que (Event Queue) where we have special place for mikroTasks and  
+anothe special place for macro tasks.
+In the end when task will have implemented than eventLoop moves this task in the app. return result
+
+makroTasks - setTimeout  
+mikroTasks - promises
+
+
+
 
