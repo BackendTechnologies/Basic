@@ -48,5 +48,30 @@ makroTasks - setTimeout
 mikroTasks - promises
 
 
+**Node js многопоточный?**  
+Да и нет
+![Screenshot_3](https://user-images.githubusercontent.com/66359081/172872158-06be9bb0-1f8c-43c0-9478-60ac0f737e3e.png)
+
+процесс - это область  памяти которая выделяется для работы какой-то программы
+
+**require**  
+![Screenshot_4](https://user-images.githubusercontent.com/66359081/172889772-bad5a88b-c28c-4693-94e0-7d8ff5d364b2.png)
+
+**commonJS** интегрировали в Node.js(там есть require)
+
+
+**module** - 
+
+Pattern module 
+![Screenshot_5](https://user-images.githubusercontent.com/66359081/172891225-2cb0ac02-a884-4d16-be5f-3ef19822ed2d.png)
+Оборачиваем в самовызывающую функцию чтобы сделать scope
+
+
+**barrel file** - one file re-exports another files  
+![Screenshot_6](https://user-images.githubusercontent.com/66359081/172895716-f7981e05-6191-47ca-93c2-8627a50a1bb0.png)
+
+
+
+
 
 
