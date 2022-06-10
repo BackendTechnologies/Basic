@@ -15,7 +15,7 @@ Protocol describes rules in this case how they will interacts.
 В devDependencies - зависимости для  удобной работы, для разработки 
 В dependencies - заавимсоти без которых приложение не будет работать
 
-**--save dev**  equals -D save in devDependencies
+**--save-dev**  equals -D save in devDependencies
 **--save** equals -S save in dependencies
 
 **--production**
