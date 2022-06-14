@@ -107,6 +107,10 @@ Pattern module
 относятся не к node.js а к опер системам  
 
 
+**cp** linux  
+https://www.geeksforgeeks.org/cp-command-linux-examples/#:~:text=cp%20stands%20for%20copy.,disk%20with%20different%20file%20name.
+
+
 
 
 
