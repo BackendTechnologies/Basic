@@ -4,4 +4,5 @@
 
 The Readline module provides a way of reading a datastream, one line at a time.
 
+https://nodejsdev.ru/api/readline/
 https://nodejs.org/dist./v4.8.3/docs/api/readline.html
