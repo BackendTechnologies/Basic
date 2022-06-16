@@ -1,5 +1,14 @@
 # Basic
 
+**Global objects**
+
+global, process, 
+__dirname - получаем полный доступ до исполняемого файла  
+__filename - возвращает весь путь до фалйа включае его имя и расширение  
+
+**argv** is property of global object(process) and you can understand how array, which contains arguments of command string.
+
+
 ## npm
 
 node package manager
