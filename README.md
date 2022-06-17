@@ -2,11 +2,13 @@
 
 **Global objects**
 
-global, process, 
+global, process, module,
 __dirname - получаем полный доступ до исполняемого файла  
 __filename - возвращает весь путь до фалйа включае его имя и расширение  
 
-**argv** is property of global object(process) and you can understand how array, which contains arguments of command string.
+**argv** is property of global object(process) and you can understand how array, which contains arguments of command string.  
+
+
 
 
 ## npm
@@ -81,10 +83,26 @@ Pattern module
 
 **кэширование** - каждый модуль импортируется один раз и сохраняется в кэш зависимости(кэши).
 
-**Буфер**(в целом) - это представление файла(любого) в бинарном виде.  
+## Stream && buffer
+![Screenshot_4](https://user-images.githubusercontent.com/66359081/174285836-2483294c-61eb-4995-9595-64023b5edd89.png)
+**Буфер**(в целом) - это представление файла(любого) в бинарном виде.
+Порция данных
+**Временное хранилище** для хранения куска данных передающихся  из одного места в другое  
+**Поток** - весь механизм передачи файла  
+Основная идея в том, чтобы за минимальное количество времени передать максимальное количество данных.  
+Чтобы пользователь начал взаимодействие с данными до того, как они загрузились полностью.  
+
+4 kind of streams:  
+readable  
+writable  
+duplex  
+transform
+
 **Буфер**(в js) -    
 https://nodejs.org/en/knowledge/advanced/buffers/how-to-use-buffers/
-длина не изменяетс, значения можно изменять 
+длина не изменяетс, значения можно изменять
+
+
 
 ```js
 057
