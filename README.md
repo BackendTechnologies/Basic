@@ -6,9 +6,7 @@ global, process, module,
 __dirname - получаем полный доступ до исполняемого файла  
 __filename - возвращает весь путь до фалйа включае его имя и расширение  
 
-**argv** is property of global object(process) and you can understand how array, which contains arguments of command string.  
-
-
+The **argv** property(of global object(process) is an array that contains the command-line arguments passed to a Node.js script.
 
 
 ## npm
